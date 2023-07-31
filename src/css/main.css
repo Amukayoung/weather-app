@@ -1,0 +1,21 @@
+.main {
+    display: grid;
+    grid-template-rows: 5fr 3fr;
+    align-items: center;
+}
+
+.current {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}

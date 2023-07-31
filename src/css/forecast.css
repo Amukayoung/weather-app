@@ -1,0 +1,71 @@
+.forecast__container {
+    display: flex;
+    max-width: 100vw;
+    width: 90%;
+    overflow: auto;
+    gap: 25px;
+    height: 70%;
+}
+
+.forecast__days-container {
+    justify-content: center;
+}
+
+.forecast__day,
+.forecast__hour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    gap: 5px;
+}
+
+.forecast__date,
+.forecast__hour {
+    font-size: 1.3rem;
+}
+
+.forecast__min-temperature {
+    font-size: 1rem;
+}
+
+.forecast__max-temperature,
+.forecast__temperature {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.forecast__img {
+    height: 64px;
+    width: 64px;
+}
+
+.forecast__form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+input[name=forecast__radio] {
+    display: none;
+}
+
+.forecast__form > label {
+    border: 1px solid white;
+    padding: 0.5ch 1ch;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.25s, color 0.25s;
+}
+
+.label-checked {
+    background: #fff;
+    color: #003;
+}   
+
+.forecast__form > label:hover {
+    background: #fff;
+    color: #003;
+}

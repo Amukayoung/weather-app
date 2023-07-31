@@ -1,0 +1,81 @@
+.current__weather {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    justify-self: end;
+}
+
+.current__city {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.current__date {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.current__hour {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.current__condition {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.current__temperature {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.current__btn {
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1ch 3ch;
+    transition: background 0.25s, color 0.25s;
+}
+
+.current__btn:hover {
+    background: #fff;
+    color: #003;
+}
+
+.current__image {
+    height: 81px;
+    width: 81px;
+}
+
+.current__extra {
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    justify-self: start;
+}
+
+.current__extra-img {
+    grid-row: 1 / span 2;
+}
+
+.current__extra-div {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+}
+
+.current__extra-p {
+    padding-left: 5px;
+}
+
+.current__extra-date {
+    font-size: 1.4rem;
+    padding-left: 5px;
+}
