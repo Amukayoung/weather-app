@@ -19,4 +19,4 @@ This weather web app integrates the WeatherAPI.com API to fetch weather data. Th
 
 ## Live Preview
 
-You can test this web in this [link](https://valentave.github.io/Weather-App/)
+You can test this web in this [link](https://Amukayoung.github.io/Weather-App/)
