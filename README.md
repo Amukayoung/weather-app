@@ -1,4 +1,4 @@
-# Weather Web App
+# Weathe App
 
 This is a weather web application that allows you to check the weather information for different cities. It utilizes the WeatherAPI.com API to provide accurate and up-to-date weather data. You can search for a specific city, and the application will display the current weather and temperature, as well as additional details such as the probability of rain and snow, humidity, and wind speed.
 
